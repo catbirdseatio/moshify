@@ -23,7 +23,7 @@ html {
 body {
     font-family: Inter, Arial, Helvetica, sans-serif;
     color: var(--color-body);
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     line-height: 1.5;
     padding: 5px;
 }
@@ -278,4 +278,26 @@ a {
     .input {
         font-size: 1.5rem;
     }
+}
+
+/* Cards */
+.card {
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+}
+
+.card__header,
+.card_body {
+    padding: 2rem 3rem;
+}
+
+.card--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.card--secondary {
+    background: var(--color-secondary);
+    color: #fff;
 }
